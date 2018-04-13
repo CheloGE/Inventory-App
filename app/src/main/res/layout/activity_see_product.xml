@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!-- Label -->
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="@string/product_name_label" />
+            <!-- Name field -->
+            <TextView
+                android:id="@+id/text_view_product_name"
+                style="@style/EditorFieldStyle"
+                android:layout_weight="2"
+                android:paddingLeft="4dp"
+                tools:text="@string/hint_product_name" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!-- Label -->
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="@string/price_label" />
+            <!-- Name field -->
+            <TextView
+                android:id="@+id/text_view_price"
+                style="@style/EditorFieldStyle"
+                android:layout_weight="2"
+                android:paddingLeft="4dp"
+                tools:text="@string/hint_price" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!-- Label -->
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="@string/quantity_label" />
+
+
+            <!-- Name field -->
+            <TextView
+                android:id="@+id/text_view_quantity"
+                style="@style/EditorFieldStyle"
+                android:layout_weight="2"
+                tools:text="@string/hint_quantity" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!-- Label -->
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="@string/supplier_name_label" />
+            <!-- Name field -->
+            <TextView
+                android:id="@+id/text_view_supplier_name"
+                style="@style/EditorFieldStyle"
+                android:layout_weight="2"
+                android:paddingLeft="4dp"
+                tools:text="@string/hint_supplier_name" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!-- Label -->
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="@string/hint_supplier_email" />
+            <!-- Name field -->
+            <TextView
+                android:id="@+id/text_view_supplier_email"
+                style="@style/EditorFieldStyle"
+                android:layout_weight="2"
+                android:paddingLeft="4dp"
+                tools:text="@string/hint_supplier_email" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!-- Label -->
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="@string/hint_supplier_phone" />
+            <!-- Name field -->
+            <TextView
+                android:id="@+id/text_view_supplier_phone"
+                style="@style/EditorFieldStyle"
+                android:layout_weight="2"
+                android:paddingLeft="4dp"
+                tools:text="@string/hint_supplier_phone" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/button_contact_supplier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/contact_supplier"
+        android:layout_margin="40dp"/>
+</RelativeLayout>

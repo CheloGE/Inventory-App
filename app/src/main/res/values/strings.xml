@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string name="instructions">To insert new item in the inventory please tap the icon on the right
+    bottom corner</string>
+    <string name="product_name_label">Product Name</string>
+    <string name="price_label">Price</string>
+    <string name="quantity_label">Quantity</string>
+    <string name="supplier_name_label">Supplier Name</string>
+    <string name="supplier_email_label">Supplier Email</string>
+    <string name="supplier_phone_label">Supplier Phone Number</string>
+    <string name="contact_supplier">Contact supplier</string>
+    <string name="hint_product_name">Product Name</string>
+    <string name="hint_price">Price</string>
+    <string name="hint_quantity">Quantity</string>
+    <string name="hint_supplier_name">Supplier name</string>
+    <string name="hint_supplier_email">Supplier email</string>
+    <string name="hint_supplier_phone">Suppler phone</string>
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+    <string name="add_inventory">Add Inventory</string>
+    <string name="action_save">Save</string>
+    <string name="edit_data">Edit Data</string>
+    <string name="action_update">Update</string>
+    <string name="edit_product">Edit Product</string>
+    <string name="product_details">Product Details</string>
+    <string name="unknown_name">Unknown name</string>
+    <string name="write_data_product_failed">Error with saving product</string>
+    <string name="write_data_product_successful">Product saved</string>
+    <string name="saleButton">Sale</string>
+    <string name="no_items_left">No items left</string>
+    <string name="sold"> product sold</string>
+    <string name="action_delete_product">Delete product</string>
+    <string name="delete_dialog_msg">Delete this product?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_product_failed">Error with deleting product</string>
+    <string name="delete_product_successful">Product deleted</string>
+    <string name="no_empty_allowed">You can not leave any empty space</string>
+
+</resources>
